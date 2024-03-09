@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #36393e;
+    color: #181818;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: #7289da;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    top: 125px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto; /* Center the section horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333; /* Dark border */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* To prevent image overflow */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px; /* Margin for the image on the right */
+    border: 4px solid #1e2124; /* Dark border around the image */
+}
+
+.text-container {
+    float: left;
+    width: calc(100% - 240px); /* Adjust the width as needed */
+}
+
+.circle-image {
+    border-radius: 50%; /* Make the image a perfect circle */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+section#homepage {
+    background-color: #7289da;
+    margin-top: 130px; /* Adjust based on your preference */
+    padding: 30px;
+    height: auto;
+    margin-left: 0; /* Updated margin-left to 0 */
+    margin-right: 0; /* Updated margin-right to 0 */
+}
+
+section#homepage .text-container {
+    color: #333;
+}
+
+section#about,
+section#resume,
+section#portfolio,
+section#contacts {
+    background-color: #7289da;
+    margin-left: 0; /* Updated margin-left to 0 */
+    margin-right: 0; /* Updated margin-right to 0 */
+}
+
+section#about h2,
+section#resume h2,
+section#portfolio h2,
+section#contacts h2 {
+    border-bottom: 4px solid #000; /* Increase the border thickness for h2 elements */
+    padding-bottom: 10px; /* Add a value for padding-bottom */
+}
